@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de comestibles y bebidas a domicilio en Jamundí. Disfruta de la mejor calidad y servicio directo a tu puerta.">
+    <title>Café Anomalía: Un sabor auténtico y de calidad en Jamundí</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="nav container">
+        <a href="/" class="logo">Café Anomalía</a>
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navigation">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+            <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <ul class="nav-list" id="navigation">
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/index.html" class="nav-link active">Inicio</a></li>
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/menu.html" class="nav-link">Menú</a></li>
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/reservaciones.html" class="nav-link">Reservaciones</a></li>
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/noticias.html" class="nav-link">Noticias</a></li>
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/tienda.html" class="nav-link">Tienda</a></li>
+            <li class="nav-item"><a href="/MiEmpresa/Cafe/contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="bienvenida">
+    <div>
+        <h1 class="head">Bienvenido a Café Anomalía</h1>
+        <p class="h2-sub">Descubre el sabor auténtico y la calidad en cada sorbo.</p>
+        <div class="he-des">
+            <p>Disfruta de nuestra exclusiva selección de cafés y delicias culinarias en un ambiente único en Jamundí. Ven y vive la experiencia Anomalía.</p>
+            <a href="/MiEmpresa/Cafe/menu.html" class="btn cta-btn">Explora nuestro menú</a>
+        </div>
+    </div>
+</section>
+
+<main>
+    <form class="container">
+        <section class="h2-form">
+            <label class="label-form" for="nombreapellido">Nombre y Apellido:</label>
+            <input class="label-form" type="text" id="nombreapellido" name="nombreapellido" class="input-padron" required aria-label="Nombre y Apellido">
+            <label class="label-form" for="correoelectronico">Correo Electrónico:</label>
+            <input class="label-form" type="email" id="correoelectronico" name="correoelectronico" class="input-padron" required placeholder="email@dominio.com" aria-label="Correo Electrónico">
+            <label class="label-form" for="telefono">Teléfono:</label>
+            <input class="label-form" type="tel" id="telefono" name="telefono" class="input-padron" required placeholder="(XXX) XXXX XXXX" aria-label="Teléfono" pattern="^\d{10}$">
+            <label class="label-form" for="mensaje">Mensaje:</label>
+            <textarea class="caja_texto" id="mensaje" name="mensaje" cols="40" rows="20" required aria-label="Mensaje"></textarea>
+        </section>
+        <section>
+        <fieldset class="label-form" >
+            <legend>¿Cómo le gustaría que lo contactemos?</legend>
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> Email</label>
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Teléfono</label>
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+        </fieldset>
+        <label class="checkbox">
+            <input type="checkbox" name="newsletter" checked> ¿Le gustaría recibir novedades de Café Anomalía?
+        </label>
+        <input type="submit" value="Enviar Formulario" class="btn cta-btn">
+        </section>
+    </form>
+    <section>
+    <table>
+        <caption>Horarios de Atención</caption>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>08h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>08h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>08h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>09h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>09h ~ 22h</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>09h ~ 22h</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="about-section">
+                <h4>Sobre Nosotros</h4>
+                <p>
+                    En Café Anomalía, combinamos pasión por el café de calidad con un compromiso por la comunidad local. Descubre más sobre nuestra historia y misión en nuestro sitio web. ¡Visítanos y vive la experiencia única que solo Anomalía puede ofrecer!
+                </p>
+            </div>
+            <div class="social-media-section">
+                <h4 title="Redes sociales, siguenos">Síguenos</h4>
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com/EspacioAnomalia" title="Twitter espacio_anomalia" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://facebook.com" aria-label="Facebook" title="Facebook espacio_anomalia"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://pinterest.com" aria-label="Pinterest"title="Pomterest espacio_anomalia"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="https://linkedin.com" aria-label="LinkedIn" title="Linkedin espacio_anomalia"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/espacioanomalia/" aria-label="Instagram" title="Instagram espacio_anomalia"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@espacio_anomalia" title="Tiktok espacio_anomalia" target="_blank" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+            <div class="newsletter-section">
+                <h4>Suscríbete a Noticias</h4>
+                <form action="suscribe.php" method="POST" class="newsletter-form">
+                    <input type="email" name="email" class="newsletter-input" placeholder="Escribe tu email" required>
+                    <button type="submit" class="newsletter-button"><i class="fas fa-envelope"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+    

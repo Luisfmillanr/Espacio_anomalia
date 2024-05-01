@@ -1,0 +1,58 @@
+  [
+    {
+        "id": 1,
+        "nombre": "LAURA (Empanaditas)",
+        "precio": 2.5,
+        "descripcion": "4 Empanaditas de carne o queso, 10g salsa de albahaca, 10g salsa de ajo.",
+        "imagen": "/MiEmpresa/Cafe/IMG/The empanadas .webp",
+        "categoria": "comidas"
+    },
+    {
+        "id": 2,
+        "nombre": "DOROTHY (Wafles con mermelada de cacao y salsa de casa)",
+        "precio": 3.0,
+        "descripcion": "3 bolas pequeñas para wafles de 30g, 1 bola de helado de chocolate, salsa de chocolate.",
+        "imagen": "imagenes/dorothy_wafles_con_mermelada_de_cacao_y_salsa_de_casa.png",
+        "categoria": "comidas"
+    },
+    {
+        "id": 3,
+        "nombre": "EVELYN (Bola de Helado)",
+        "precio": 1.5,
+        "descripcion": "35g bola de helado.",
+        "imagen": "imagenes/evelyn_bola_de_helado.png",
+        "categoria": "postres"
+    },
+    {
+        "id": 4,
+        "nombre": "CAROLYN (Sangría)",
+        "precio": 4.0,
+        "descripcion": "Copa de Sangría, fruta congelada, hielo.",
+        "imagen": "imagenes/carolyn_sangria.png",
+        "categoria": "bebidas"
+    },
+    {
+        "id": 5,
+        "nombre": "ROCCO (Espresso)",
+        "precio": 2.0,
+        "descripcion": "Café espresso fuerte y aromático.",
+        "imagen": "imagenes/rocco_espresso.png",
+        "categoria": "bebidas"
+    },
+    {
+        "id": 6,
+        "nombre": "Café Americano",
+        "precio": 2.50,
+        "descripcion": "Un espresso diluido, perfecto para los amantes del café clásico.",
+        "imagen": "imagenes/cafe-americano.png",
+        "categoria": "bebidas"
+      },
+      {
+        "id": 7,
+        "nombre": "Sandwich de Jamón y Queso",
+        "precio": 5.00,
+        "descripcion": "Delicioso sandwich con jamón de primera calidad y queso fundido.",
+        "imagen": "imagenes/sandwich-jamon-queso.png",
+        "categoria": "comidas"
+      }
+]
